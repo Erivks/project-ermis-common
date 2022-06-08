@@ -10,6 +10,8 @@ function getColorPerLevel(logLevel) {
             return CLI_COLOURS.fg.blue;
         case LOG_LEVEL.LOG_WARN:
             return CLI_COLOURS.fg.yellow
+        case LOG_LEVEL.LOG_DEBUG:
+            return CLI_COLOURS.fg.green
         default:
             return CLI_COLOURS.fg.white
     }

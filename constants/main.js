@@ -1,13 +1,15 @@
 export const LOG_LEVEL = {
     LOG_ERR: "ERROR",
     LOG_INFO: "INFO",
-    LOG_WARN: "WARN" 
+    LOG_WARN: "WARN",
+    LOG_DEBUG: "DEBUG"
 }
 
 export const HTTP_CODE = {
     INTERNAL_SERVER_ERROR: 500,
     OK: 200,
-    BAD_REQUEST: 400
+    BAD_REQUEST: 400,
+    CREATED: 201
 }
 
 export const CLI_COLOURS = {
